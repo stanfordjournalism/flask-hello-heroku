@@ -3,15 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>My Homepage</title>
+    <link rel="stylesheet" href="/static/stylesheets/mystyles.css">
 </head>
 <body>
-    <h1>Dan's homepage!</h1>
-    <div id="current-time">
-        The time is now <span class="timestamp">{{current_time}}</span>
-    </div>
-    <a href="http://placecage.com">
-        <img class="photo" src="http://placecage.com/{{width}}/{{height}}" alt="The one and only">
-    </a>
+    <section class="page-top">
+        <h1>My test homepage!</h1>
+        <div id="current-time">
+            The time is now: <span class="timestamp">{{current_time}}</span>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="photo">
+                <a href="https://github.com/stanfordjournalism/flask-hello-heroku">
+                    <img style="width: {{width}}px; height: {{height}}px;" src="/static/images/stanfordlove.jpg" alt="Stanford quad from the 3rd floor">
+                </a>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            Source code can be found at:
+            https://github.com/stanfordjournalism/flask-hello-heroku
+        </p>
+
+    </footer>
+
 
 </body>
 </html>
