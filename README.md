@@ -33,12 +33,23 @@ you@email.com
 
 ## Clone an app and deploy it to Heroku
 
+
+Clone a copy of the app:
+
 ```sh
+$ cd /tmp # or whatever directory you want to play in
 $ git clone https://github.com/stanfordjournalism/flask-hello-heroku
 ```
 
+Test it out for yourself:
 
-## Initialize a Heroku app from the command-line
+```sh
+$ cd flask-hello-heroku
+$ python app.py
+```
+
+
+### Initialize a Heroku app from the command-line
 
 
 ```sh
@@ -65,6 +76,16 @@ You'll see this app listed on your account page:
 https://dashboard.heroku.com/apps
 
 ![apps page](https://i.imgur.com/JjrHrsK.png)
+
+
+## Deploy the app
+
+
+Push to Heroku's git repo for your code.
+
+```sh
+$ git push heroku master
+```
 
 
 
