@@ -6,7 +6,7 @@ verify_ssl = true
 
 [packages]
 
-Flask = "0.12.2"
+Flask = "*"
 gunicorn = "*"
 
 
