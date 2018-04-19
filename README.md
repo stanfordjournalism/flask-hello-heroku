@@ -87,7 +87,30 @@ Push to Heroku's git repo for your code.
 $ git push heroku master
 ```
 
+### Spin up a "dyno"
 
+"Dyno" is Heroku's term for cloud server/resource. The following command ensures that Heroku has allocated clouds to your little app:
+
+```sh
+$ heroku ps:scale web=1
+```
+
+You should see output that looks like this:
+
+```
+Scaling dynos... done, now running web at 1:Free
+```
+
+
+
+## Updating the app
+
+
+```sh
+$ git add templates/homepage.html
+$ git commit -m 'changed homepage'
+$ git push heroku master
+```
 
 
 
