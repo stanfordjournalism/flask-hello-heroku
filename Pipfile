@@ -1,0 +1,14 @@
+[[source]]
+
+url = "http://www.example.com"
+
+
+[packages]
+
+Flask = "*"
+gunicorn = "*"
+
+
+[requires]
+
+python_version = "3.6"
