@@ -1,6 +1,6 @@
 [[source]]
 
-url = "https://github.com/stanfordjournalism/flask-hello-heroku"
+url = "https://pypi.python.org/simple"
 verify_ssl = true
 
 
