@@ -1,11 +1,12 @@
 [[source]]
 
-url = "http://www.example.com"
+url = "https://github.com/stanfordjournalism/flask-hello-heroku"
+verify_ssl = true
 
 
 [packages]
 
-Flask = "*"
+Flask = "0.12.2"
 gunicorn = "*"
 
 

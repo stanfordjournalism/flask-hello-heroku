@@ -30,6 +30,14 @@ $ heroku auth:whoami
 you@email.com
 ```
 
+
+## Clone an app and deploy it to Heroku
+
+```sh
+$ git clone https://github.com/stanfordjournalism/flask-hello-heroku
+```
+
+
 ## Initialize a Heroku app from the command-line
 
 
@@ -59,7 +67,6 @@ https://dashboard.heroku.com/apps
 ![apps page](https://i.imgur.com/JjrHrsK.png)
 
 
-## Clone an app and deploy it to Heroku
 
 
 
